@@ -195,7 +195,7 @@ hr {
 
 /* Responsive for smaller screen  */
 
-/* @media (orientation: portrait) {
+@media (orientation: portrait) {
     .button2 {
         flex-wrap: wrap;
         margin-top: 25px;
@@ -249,4 +249,4 @@ hr {
     .fleft {
         margin-bottom: 15px;
     }
-} */
+}
