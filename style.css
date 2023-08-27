@@ -1,0 +1,252 @@
+/* Adding code to switch theme b/w light and dark based upon system theme*/
+/* Default light theme styles */
+/* body {
+    background-color: #ffffff;
+    color: #000000;
+  } */
+  
+  /* Dark theme styles */
+  /* @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
+   */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+li {
+    margin: 5px 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#gapps {
+    padding: 10px;
+}
+
+#gapps:hover {
+    background-color: rgba(199, 184, 184, 0.377);
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.sign_btn {
+    background-color: rgba(30, 97, 223, 0.829);
+    color: white;
+    padding: 9px 20px;
+    border-radius: 0.26rem;
+}
+
+.sign_btn:hover {
+    background-color: rgb(16, 87, 219);
+    cursor: pointer;;
+    text-decoration: none;
+}
+
+.main-content {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+img[alt="googleimg"] {
+    width: 320px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+input[type="text"] {
+    width:80%;
+    height: 48px;
+    border-radius: 2rem;
+    padding: 0px 40px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    /* border: 1px solid red; */
+    margin-top: 35px;
+}
+
+input[type="text"]:hover {
+    box-shadow: 1px 1px 1px px;
+}
+
+.button2 {
+    margin: 45px 30px;
+    padding: 10px 20px;
+    /* border: 1px solid green; */
+}
+
+.bts {
+    background-color: rgba(207, 206, 206, 0.63);
+    padding: 10px 20px;
+    border-radius: 0.3rem;
+    margin: 0px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+.bts:hover {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px 26px;
+    background-color: rgba(190, 188, 188, 0.63);
+    border: 1px solid rgba(146, 146, 146, 0.63);
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+span {
+    color: red;
+}
+
+.offer {
+    text-decoration: none;
+}
+
+.p2 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.lang {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0px 5px;
+    color: blue;
+}
+
+footer {
+    background-color:  #f2f2f2;
+    width: 100%;
+    margin-top: 35px;
+    color: grey;
+    font-size: 15px;
+    /* border: 1px solid red; */
+}
+
+.f1{
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.f1 p {
+    font-size: 15px;
+}
+
+hr {
+    opacity: 0.1;
+    height: 1px 0 0 0;
+
+}
+
+.f2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.links {
+    color: rgb(119, 117, 117);
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive for smaller screen  */
+
+/* @media (orientation: portrait) {
+    .button2 {
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .bts1 {
+        margin-top: 0px;
+    }
+
+    .bts2 {
+        margin-top: 10px;
+    }
+
+    #searchbar {
+        width: 60%;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+
+    #google-img {
+        width: 200px;
+        margin-top: 35px;
+    }
+
+    .p1 {
+        flex-wrap: wrap;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .p2 {
+        margin-top: 20px;
+    }
+
+    .f2 {
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    .links {
+        padding: 5px 5px;
+    }
+
+    .f1 {
+        padding: 10px;
+    }
+
+    .fleft {
+        margin-bottom: 15px;
+    }
+} */
