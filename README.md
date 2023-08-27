@@ -1,6 +1,6 @@
 # What is it?
 
-It is Clone of Google Search Page
+Google Search Page Clone
 
 # Languages used.
 
@@ -8,5 +8,5 @@ HTML, CSS, JavaScript
 
 # Who Helped ?
 
-Took help from someone's project i found online
-link to that [person](https://codebustler.github.io/myProjects/)
+Took help from someone's project i found online.
+here's link to that [person's](https://codebustler.github.io/myProjects/) projects.
